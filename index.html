@@ -5,16 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>台南心理諮商服務平台</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- 連接Bootstrap -->
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <nav class="top">
-      <img src="./img/logo.png" alt="一張圖片" />
-      <a href="#">搜尋據點</a>
-      <a href="#">評價</a>
+    <nav class="nav-top">
+      <div id="scroller-anchor"></div>
+      <a href="#" class="brand-logo">
+        <img src="./img/logo.png" alt="一張圖片"
+      /></a>
+      <ul>
+        <li class="nav-btn"><a href="#">線上預約</a></li>
+        <li class="nav-btn"><a href="#">平台由來</a></li>
+        <li class="nav-btn"><a href="#">搜尋據點</a></li>
+        <li class="nav-btn"><a href="#">評價</a></li>
+      </ul>
     </nav>
-    <div></div>
-    <div></div>
+
+    <div class="banner">
+      <div class="forms"></div>
+    </div>
+    <div class="history"></div>
+    <div class="site"></div>
+    <div class="evaluate"></div>
+    <div class="footer"></div>
     <script src="./js/jquery.js"></script>
     <script src="./js/api.js"></script>
   </body>
